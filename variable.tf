@@ -1,3 +1,5 @@
+#This File contain all the variables that we are using for creating the VPC and EC2 Instance
+
 variable "cidr_vpc" {
   description = "CIDR block for the VPC"
   default     = "10.1.0.0/16"
